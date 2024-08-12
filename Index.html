@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <img src="logo.png" alt="Imagen del encabezado"> 
+        <h1>Encriptador y Desencriptador de Texto</h1> 
+    </header>
+    <div class="container">
+        <div id="inputArea">
+            <textarea id="textInput" placeholder="Ingrese el texto aqui"></textarea>
+        </div>
+
+        <div class="buttons">
+            <button id="encryptBtn">Encriptar</button>
+            <button id="decryptBtn">Desencriptar</button>
+            <button id="copyBtn">Copiar</button>
+        </div>
+
+        <div id="outputArea">
+            <textarea id="outputText" readonly></textarea>
+        </div>
+
+        <div id="noMessage" style="display: none;">
+            <img src="12.png" alt="No se encontró ningún mensaje.">
+        </div>
+    </div>
+
+    <footer>
+        Desarrollado por: Silviadccv
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

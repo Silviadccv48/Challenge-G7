@@ -1,0 +1,136 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+    background-color: #e77c7c;
+}
+
+/* ... (restante del código CSS) ... */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #e77c7c; /* Color de fondo del encabezado */
+    padding: 10px 0; /* Espacio superior e inferior */
+}
+
+header img {
+    width: 150px; /* Ajusta el ancho de la imagen */
+    height: auto;
+    margin-right: 20px; /* Espacio entre la imagen y el título */
+}
+
+/* ... (resto del código CSS) ... */
+h1 {
+    margin-top: 30px;
+    color: #740e57;
+}
+
+/*
+.container {
+    background-color: #ecfbff;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin-top: 20px;
+    text-align: center;
+}
+*/
+
+.container {
+    background-color: #a43737;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgb(126, 7, 85);
+    width: 600px;
+    margin-top: 30px;
+    /* Ajustar para Flexbox */
+   /* display: flex;*/
+    flex-direction: column; /* Apilar elementos verticalmente */
+    align-items: center; 
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: rgb(219, 18, 149);
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #670527;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px 15px;
+    background-color: #f04b4b;
+    color: rgb(102, 75, 87);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+
+/* ... (restante del código CSS) ... */
+#noMessage {
+    text-align: center;
+    /* Eliminar el color rojo */
+    /* color: red; */
+    margin-top: 10px; 
+    /* Ajustar para Flexbox */
+    width: 100%; /* Ancho completo del contenedor */
+    display: flex;
+    justify-content: flex-end; /* Alineación a la derecha */
+    align-items: center;  /* Centrar verticalmente */
+    margin-top: 20px; /* Agrega un margen superior */
+}
+
+#noMessage img {
+    width: 200px; /* Ajusta el ancho de la imagen */
+    height: auto;
+    /* display: block; */ /* No se necesita para Flexbox */
+    /* margin: 0 auto; */ /* No se necesita para Flexbox */
+}
+
+/*
+#noMessage {
+    text-align: center;
+    /* Elimina el color rojo */
+    /* color: red; */
+   /* margin-top: 10px; /* Agrega un margen superior 
+}
+
+/*
+#noMessage img {
+    width: 300px; /* Ajusta el ancho de la imagen */
+  /*  height: auto;
+  /*  display: block;
+ /*   margin: 0 auto; /* Centra la imagen horizontalmente */
+/*}
+*/
+
+footer {
+    margin-top: 30px;
+    font-size: 1em;
+    color: #000000;
+}
